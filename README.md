@@ -2,175 +2,188 @@
 
 Runtime orchestration engine for **DrMarchand’s ∞ OS™**
 
-Built under the authority of:
-
-🏝️ **Design Orchard LLC ©**
+**Authority:** © Design Orchard LLC  
+**Owner / Operator:** Joseph Kyle Marchand  
+**Runtime:** 🔬 DrMarchand’s Lab⚛︎ratory™  
+**Archive:** 📚 DrMarchand’s ⚛︎ Library™  
 
 ---
 
-## 🌌 Overview
+## Overview
 
 The **Nɛuro-Forge Engine™** is the runtime layer responsible for executing the architecture of **DrMarchand’s ∞ OS™**.
 
-It coordinates identity, connectors, event processing, and system integrity across the entire ecosystem.
+It coordinates identity, connectors, event processing, and system integrity across the broader system.
 
-This engine powers:
+This engine supports:
 
-🔬 **DrMarchand’s Lab⚛︎ratory™**  
-📚 **DrMarchand’s ⚛︎ Library™**  
-🪑 **DrMarchand’s ☸︎ Workbench™**  
+- 🔬 **DrMarchand’s Lab⚛︎ratory™**
+- 📚 **DrMarchand’s ⚛︎ Library™**
+- 🪑 **DrMarchand’s ☸︎ Workbench™**
 
-All operating beneath the legal entity:
+All operating under:
 
-🌴 **Design Orchard LLC ©**
+- 🌴 **Design Orchard LLC ©**
 
 ---
 
-## 🧠 System Philosophy
+## System Philosophy
 
-The system is built on three principles:
+The system is built on three core principles:
 
-⚙️ **Append-Only Truth**  
-Events are never edited. System state is derived from history.
+### ⚙️ Append-Only Truth
+Events are not edited after they are written.  
+System state is derived from recorded history.
 
-🔐 **Identity First**  
-Identity is defined as `(provider, provider_sub)` — never email.
+### 🔐 Identity First
+Identity is defined as `(provider, provider_sub)`, not email.
 
-🧭 **Deterministic Runtime**  
-Commands produce events → events update projections → UI reflects projections.
+### 🧭 Deterministic Runtime
+Commands produce events.  
+Events update projections.  
+Interfaces reflect projections.
 
+```txt
 Command → Event → Projection → Interface
+```
 
-The engine never mutates truth.
+The engine does not mutate truth retroactively.  
+It processes, records, and derives from what has already occurred.
 
 ---
 
-## ⚙️ Core Responsibilities
+## Core Responsibilities
 
 The **Nɛuro-Forge Engine™** provides:
 
-📡 connector orchestration  
-🔐 identity verification  
-📜 event ingestion  
-🧾 append-only ledger storage  
-📊 projection generation  
-🧠 runtime state coordination  
+- 📡 connector orchestration
+- 🔐 identity verification
+- 📜 event ingestion
+- 🧾 append-only ledger storage
+- 📊 projection generation
+- 🧠 runtime state coordination
 
 ---
 
-## 🧬 Event System
+## Event System
 
 The platform runs on an **append-only event ledger**.
 
-Every action emits an immutable event.
+Each action emits an immutable event record.
 
-Example events:
+### Example events
 
-user.created  
-oauth.authorized  
+```txt
+user.created
+oauth.authorized
 connector.connect.succeeded
 
-host.boot.completed  
-host.heartbeat  
-power.source.changed  
+host.boot.completed
+host.heartbeat
+power.source.changed
 power.battery.snapshot
 
-atom.isotope.set  
+atom.isotope.set
 atom.isotope.locked
+```
 
-Events are hash-chained to preserve integrity.
+Events are hash-chained to support integrity and traceability.
 
 ---
 
-## 🗂 Repository Structure
+## Repository Structure
 
+```txt
 engine/
-├── api/                → runtime endpoints
-├── projections/        → state projections
-├── core/               → engine primitives
-│
-├── ledger/             → event integrity
-└── security/           → identity verification
+├── api/                # runtime endpoints
+├── projections/        # state projections
+├── core/               # engine primitives
+├── ledger/             # event integrity
+└── security/           # identity verification
+```
 
-Future modules:
+### Future modules
 
-agents/                  → host sentinel nodes
-connectors/              → external system bridges
-workbench/               → developer interface
-
----
-
-## 🔐 Security Model
-
-The engine enforces strict runtime discipline:
-
-• PKCE OAuth flows  
-• no client-side refresh tokens  
-• sandboxed connectors  
-• HMAC device verification  
-• AES-256 token storage  
-• append-only event ledger  
-
-Integrity is always prioritized over convenience.
+```txt
+agents/                 # host sentinel nodes
+connectors/             # external system bridges
+workbench/              # developer interface
+```
 
 ---
 
-## 🧭 Relationship to ∞ OS™
+## Security Model
 
-The Nɛuro-Forge Engine™ is one component of the larger system.
+The engine enforces a strict runtime security posture:
 
-∞ OS™  
-↓  
-⚙︎ Nɛuro-Forge Engine™  
-↓  
-🔬 Laboratory  
-↓  
-📚 Library  
-↓  
-🪑 Workbench
+- PKCE OAuth flows
+- no client-side refresh tokens
+- sandboxed connectors
+- HMAC device verification
+- AES-256 token storage
+- append-only event ledger
 
-Where:
-
-• **∞ OS™** provides system governance  
-• **NFE** executes runtime orchestration
+Integrity is prioritized throughout the runtime.
 
 ---
 
-## 🌱 Current Development Phase
+## Relationship to ∞ OS™
 
-∞ OS™ v4.x — Runtime Architecture
+The **Nɛuro-Forge Engine™** is one component of the larger **DrMarchand’s ∞ OS™** structure.
 
-Active work:
+```txt
+∞ OS™
+↓
+⚙︎ Nɛuro-Forge Engine™
+↓
+🔬 DrMarchand’s Lab⚛︎ratory™
+↓
+📚 DrMarchand’s ⚛︎ Library™
+↓
+🪑 DrMarchand’s ☸︎ Workbench™
+```
 
-⚙️ Engine runtime  
-📜 event ledger  
-📡 connector protocol  
-🧠 projection system  
+### Functional relationship
 
-Upcoming:
-
-🧭 Workbench console  
-📦 host sentinel agents  
-🔐 vault key management  
+- **∞ OS™** provides the broader system structure and governance model
+- **Nɛuro-Forge Engine™** provides runtime orchestration and execution logic
 
 ---
 
-## 🪬 Motto
+## Current Development Phase
+
+**∞ OS™ v4.x · Runtime Architecture**
+
+### Active work
+- ⚙️ engine runtime
+- 📜 event ledger
+- 📡 connector protocol
+- 🧠 projection system
+
+### Upcoming
+- 🧭 workbench console
+- 📦 host sentinel agents
+- 🔐 vault key management
+
+---
+
+## Motto
 
 > Where code becomes architecture.
 
 ---
 
-## © License
+## License
 
-© **Design Orchard LLC**
-
+© **Design Orchard LLC**  
 All rights reserved.
 
 ---
 
-🌴 **Design Orchard™**  
-🔬 **DrMarchand’s Lab⚛︎ratory™**  
-⚙︎ **Nɛuro-Forge Engine™**  
-📚 **DrMarchand’s ⚛︎ Library™**  
-∞ **DrMarchand’s ∞ OS™**
+## System References
+
+- 🌴 **Design Orchard™**
+- 🔬 **DrMarchand’s Lab⚛︎ratory™**
+- ⚙︎ **Nɛuro-Forge Engine™**
+- 📚 **DrMarchand’s ⚛︎ Library™**
+- ∞ **DrMarchand’s ∞ OS™**
