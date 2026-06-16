@@ -1,0 +1,46 @@
+schema_version: 1.0
+registry_type: ui_terminal_safe_authoring_standard
+
+standard:
+  id: ui_terminal_safe_authoring_v1
+  display_name: "UI and Terminal Safe Authoring Standard v1"
+  status: active
+
+observed_break_patterns:
+  heredoc_continuation_prompt:
+    example: ">...."
+    risk: high
+  unicode_placeholder_rendering:
+    example: "<0001fa91>"
+    risk: moderate
+  decorative_path_fragility:
+    risk: high
+
+rules:
+  ascii_safe_ids_required: true
+  unicode_allowed_in_display_metadata: true
+  unicode_allowed_in_markdown_body_with_caution: true
+  unicode_not_allowed_for_primary_machine_ids: true
+  unicode_not_recommended_for_filenames: true
+  environment_variables_ascii_only: true
+  api_routes_ascii_only: true
+  json_keys_ascii_preferred: true
+  yaml_keys_ascii_preferred: true
+
+object_pattern:
+  required_fields:
+    - id
+    - display_name
+    - symbolic_name
+    - role
+    - authority
+
+watchdog_checks:
+  filenames_with_symbolic_unicode:
+    action: flag
+  config_keys_with_symbolic_unicode:
+    action: flag
+  shell_paths_with_symbolic_unicode:
+    action: flag
+  env_vars_with_symbolic_unicode:
+    action: block

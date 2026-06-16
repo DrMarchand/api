@@ -53,3 +53,13 @@
 - ⚙︎ Nɛuro-Forge Engine™ sends/routes updates.
 - KEJ Studio is the realm for design compositions.
 - DrMarchand's Lab⚛︎ratory™ is the realm for code compositions.
+
+## 2026-06-15
+
+### Added
+- UI and Terminal Safe Authoring Standard v1.
+
+### Established
+- Machine-readable files require ASCII-safe IDs.
+- Symbolic names are preserved as display metadata, not primary machine identifiers.
+- Watchdog should flag Unicode-heavy filenames, config keys, shell paths, and environment identifiers.
