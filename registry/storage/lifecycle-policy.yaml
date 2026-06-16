@@ -10,6 +10,20 @@ layers:
     role: current_operational_work
     expected_to_change: true
 
+  toolbox:
+    role: blueprint_layer
+    primary_location: controlled_documents_or_registry
+    rule: holds_plans_blueprints_templates_and_system_designs
+    contains:
+      - blueprints
+      - plans
+      - templates
+      - diagrams
+      - schemas
+      - build_instructions
+      - architecture_docs
+      - system_maps
+
   boiler_room:
     role: documents_layer_working_weird_files
     primary_location: Documents
@@ -62,25 +76,10 @@ layers:
       - approval
 
 rules:
+  toolbox_holds_blueprints: true
   downloads_is_dumpster: true
   documents_can_be_boiler_room: true
   graveyard_is_no_mans_land: true
   graveyard_is_not_normal_storage: true
   dumpster_files_should_be_promoted_or_trashed: true
   boiler_room_files_require_understanding_before_action: true
-
-  toolbox:
-    role: blueprint_layer
-    primary_location: controlled_documents_or_registry
-    rule: holds_plans_blueprints_templates_and_system_designs
-    contains:
-      - blueprints
-      - plans
-      - templates
-      - diagrams
-      - schemas
-      - build_instructions
-      - architecture_docs
-
-rules:
-  toolbox_holds_blueprints: true
