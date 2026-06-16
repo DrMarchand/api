@@ -169,3 +169,13 @@
 - Downloads is not authority.
 - Documents may contain Boiler Room material.
 - Graveyard is evidence of loss/corruption/deletion, not normal storage.
+
+
+## 2026-06-15
+
+### Corrected
+- Toolbox added as blueprint layer.
+- Toolbox holds plans, schemas, templates, diagrams, and build instructions.
+- Boiler Room remains weird working documents.
+- Dumpster remains Downloads staging.
+- No Man's Land remains ghost/deleted/corrupted evidence.

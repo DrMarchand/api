@@ -93,3 +93,13 @@ Examples:
 Fully removed after documentation, evidence, and approval.
 
 Ashes means the object is no longer recoverable through normal system records.
+
+## Toolbox
+
+Blueprint layer.
+
+The Toolbox holds plans, templates, schemas, diagrams, build instructions, system maps, and architecture documents.
+
+Toolbox files are not trash, not ghosts, and not random working documents.
+
+They are reusable construction knowledge.

@@ -68,3 +68,19 @@ rules:
   graveyard_is_not_normal_storage: true
   dumpster_files_should_be_promoted_or_trashed: true
   boiler_room_files_require_understanding_before_action: true
+
+  toolbox:
+    role: blueprint_layer
+    primary_location: controlled_documents_or_registry
+    rule: holds_plans_blueprints_templates_and_system_designs
+    contains:
+      - blueprints
+      - plans
+      - templates
+      - diagrams
+      - schemas
+      - build_instructions
+      - architecture_docs
+
+rules:
+  toolbox_holds_blueprints: true
