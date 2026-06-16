@@ -63,3 +63,15 @@
 - Machine-readable files require ASCII-safe IDs.
 - Symbolic names are preserved as display metadata, not primary machine identifiers.
 - Watchdog should flag Unicode-heavy filenames, config keys, shell paths, and environment identifiers.
+
+## 2026-06-15
+
+### Added
+- Big Brother v1 visibility and telemetry node.
+- Read-only status reporting script.
+- Big Brother registry definition.
+
+### Established
+- Big Brother observes only.
+- Watchdog evaluates.
+- Lionheart authorizes remediation.

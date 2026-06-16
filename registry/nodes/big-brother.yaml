@@ -1,0 +1,36 @@
+schema_version: 1.0
+registry_type: node_definition
+
+node:
+  id: big_brother
+  display_name: "Big Brother"
+  symbolic_name: "Big Brother"
+  role: visibility_telemetry_signal_light
+  authority: read_only_observer
+
+capabilities:
+  storage_observation: true
+  git_observation: true
+  cloud_mount_observation: true
+  api_health_observation: true
+  registry_drift_observation: true
+  secret_scanning_observation: planned
+
+restrictions:
+  can_delete: false
+  can_move: false
+  can_modify_permissions: false
+  can_push_code: false
+  can_execute_high_risk_actions: false
+
+reports_to:
+  - watchdog
+  - workbench
+  - notebook
+
+requires_lionheart_for:
+  - remediation
+  - deletion
+  - migration
+  - permission_change
+  - production_change
