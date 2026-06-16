@@ -1,0 +1,44 @@
+schema_version: 1.0
+registry_type: composition_authority
+
+atlas:
+  role: static_titan_perceptive_anchor
+  sends_updates: false
+  feels_updates: true
+  heart: "⚙︎ Nɛuro-Forge Engine™"
+
+engine:
+  name: "⚙︎ Nɛuro-Forge Engine™"
+  role: update_router_processor_and_signal_engine
+  sends_updates: true
+  routes_updates: true
+
+realms:
+  kej_studio:
+    name: "KEJ Studio"
+    role: design_composition_publication_realm
+    handles:
+      - graphic_design
+      - visual_artwork
+      - creative_compositions
+      - client_design_deliverables
+      - portfolio_assets
+
+  laboratory:
+    name: "🔬 DrMarchand's Lab⚛︎ratory™"
+    role: code_composition_systems_realm
+    handles:
+      - software
+      - api
+      - scripts
+      - infrastructure
+      - automation
+      - system_architecture
+      - code_compositions
+
+rules:
+  atlas_perceives_updates: true
+  neuro_forge_engine_sends_updates: true
+  kej_studio_for_design_compositions: true
+  laboratory_for_code_compositions: true
+  lionheart_authorizes_execution: true

@@ -45,3 +45,11 @@
 ### Established
 - Payment proof and contract proof must be linked but not confused.
 - Contract provider must remain abstract for Adobe Sign to PandaDoc migration.
+
+## 2026-06-15
+
+### Corrected
+- Atlas does not send updates; Atlas feels updates.
+- ⚙︎ Nɛuro-Forge Engine™ sends/routes updates.
+- KEJ Studio is the realm for design compositions.
+- DrMarchand's Lab⚛︎ratory™ is the realm for code compositions.
