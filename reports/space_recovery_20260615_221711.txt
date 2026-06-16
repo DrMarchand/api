@@ -18,3 +18,79 @@ Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on
 176K	/Users/drmarchandslab.com/Desktop
 
 === LIBRARY TOP BOUNDED ===
+ 17G	/Users/drmarchandslab.com/Library/Group Containers
+ 17G	/Users/drmarchandslab.com/Library/Application Support
+6.8G	/Users/drmarchandslab.com/Library/CloudStorage
+6.5G	/Users/drmarchandslab.com/Library/Mobile Documents
+4.5G	/Users/drmarchandslab.com/Library/Messages
+3.3G	/Users/drmarchandslab.com/Library/Containers
+2.4G	/Users/drmarchandslab.com/Library/Metadata
+1.5G	/Users/drmarchandslab.com/Library/Mail
+1.4G	/Users/drmarchandslab.com/Library/Photos
+1.4G	/Users/drmarchandslab.com/Library/Caches
+593M	/Users/drmarchandslab.com/Library/Logs
+562M	/Users/drmarchandslab.com/Library/CloudStorage_OLD
+
+=== GROUP CONTAINERS TOP ===
+9.0G	/Users/drmarchandslab.com/Library/Group Containers/UBF8T346G9.Office
+4.4G	/Users/drmarchandslab.com/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite
+1.6G	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.SiriTTS
+795M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.contacts
+585M	/Users/drmarchandslab.com/Library/Group Containers/JQ525L2MZD.com.adobe.GrowthSDK
+288M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.reminders
+252M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.notes
+159M	/Users/drmarchandslab.com/Library/Group Containers/EQHXZ8M8AV.group.com.google.drivefs
+ 92M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.FaceTime
+ 68M	/Users/drmarchandslab.com/Library/Group Containers/com.apple.stickersd.group
+ 57M	/Users/drmarchandslab.com/Library/Group Containers/G7HH3F8CAK.com.getdropbox.dropbox.sync
+ 49M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.chronod
+ 42M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.replicatord
+ 32M	/Users/drmarchandslab.com/Library/Group Containers/com.apple.systempreferences.cache
+ 19M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.feedbacklogger
+ 18M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.icloudMCCKit
+ 18M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.calendar
+ 17M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.transparency
+ 12M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.siri.remembers
+9.4M	/Users/drmarchandslab.com/Library/Group Containers/UBF8T346G9.com.microsoft.teams
+8.6M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.tipsnext
+7.4M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.PegasusConfiguration
+4.4M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.energykit
+4.0M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.usernoted
+3.5M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.findmy.findmylocateagent
+2.3M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.tips
+2.1M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.swtransparency
+2.1M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.appstoreagent
+1.8M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.siri.sirisuggestions
+1.4M	/Users/drmarchandslab.com/Library/Group Containers/group.com.apple.icloud.searchpartyuseragent
+
+=== APPLICATION SUPPORT TOP ===
+7.5G	/Users/drmarchandslab.com/Library/Application Support/Google
+3.0G	/Users/drmarchandslab.com/Library/Application Support/Adobe
+2.1G	/Users/drmarchandslab.com/Library/Application Support/com.openai.atlas
+1.4G	/Users/drmarchandslab.com/Library/Application Support/Dropbox
+1.2G	/Users/drmarchandslab.com/Library/Application Support/FileProvider
+498M	/Users/drmarchandslab.com/Library/Application Support/CloudDocs
+457M	/Users/drmarchandslab.com/Library/Application Support/com.apple.wallpaper
+281M	/Users/drmarchandslab.com/Library/Application Support/com.adobe.dunamis
+178M	/Users/drmarchandslab.com/Library/Application Support/com.operasoftware.Opera
+119M	/Users/drmarchandslab.com/Library/Application Support/Code
+117M	/Users/drmarchandslab.com/Library/Application Support/AddressBook
+113M	/Users/drmarchandslab.com/Library/Application Support/Firefox
+ 67M	/Users/drmarchandslab.com/Library/Application Support/Asana
+ 33M	/Users/drmarchandslab.com/Library/Application Support/CEF
+ 30M	/Users/drmarchandslab.com/Library/Application Support/Knowledge
+ 27M	/Users/drmarchandslab.com/Library/Application Support/com.openai.chat
+4.7M	/Users/drmarchandslab.com/Library/Application Support/Animoji
+4.2M	/Users/drmarchandslab.com/Library/Application Support/com.apple.ap.promotedcontentd
+3.5M	/Users/drmarchandslab.com/Library/Application Support/Codex
+3.2M	/Users/drmarchandslab.com/Library/Application Support/networkserviceproxy
+2.7M	/Users/drmarchandslab.com/Library/Application Support/CallHistoryDB
+2.3M	/Users/drmarchandslab.com/Library/Application Support/DifferentialPrivacy
+2.1M	/Users/drmarchandslab.com/Library/Application Support/com.apple.siri.inference
+1.4M	/Users/drmarchandslab.com/Library/Application Support/com.apple.ProtectedCloudStorage
+1.4M	/Users/drmarchandslab.com/Library/Application Support/com.apple.iTunesCloud
+612K	/Users/drmarchandslab.com/Library/Application Support/com.apple.RemoteManagementAgent
+456K	/Users/drmarchandslab.com/Library/Application Support/SyncServices
+404K	/Users/drmarchandslab.com/Library/Application Support/FaceTime
+364K	/Users/drmarchandslab.com/Library/Application Support/com.apple.sharedfilelist
+328K	/Users/drmarchandslab.com/Library/Application Support/CrashReporter

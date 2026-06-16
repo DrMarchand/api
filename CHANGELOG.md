@@ -116,3 +116,15 @@
 - Phoenix healing authority and Lionheart Reboot protocol.
 - Infinity OS investigation trigger after repeated Engine failure.
 - NFE space recovery reporting script.
+
+## 2026-06-15
+
+### Recovered
+- Mac storage improved to approximately 85GB available according to Finder/System Storage.
+- CloudDocs VM cache reduced from large VM footprint to healthy state.
+- OneDrive recovery VM removed from active storage.
+- Big Brother identified VirtualMachines as next major cleanup target.
+
+### Next Target
+- Audit ~/VirtualMachines for removable VM payloads.
+- Thin Time Machine local snapshots if needed.
