@@ -1,0 +1,12 @@
+path,root_id,authority,file_count,path_length,reason,recommended_action
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchands com/99_SYS/OS/Imports/GoogleDrive_Migration/Google Drive (Not synced),library_onedrive,institutional_memory,1,137,quarantine_pattern,migration_graveyard_review
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchands com/99_SYS/OS/Imports/GoogleDrive_Migration/Google Drive (Not synced) (1),library_onedrive,institutional_memory,1,141,quarantine_pattern,migration_graveyard_review
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-Kyle@drmarchandslaboratory.com/Other computers,laboratory_google,research_and_development,0,105,quarantine_pattern,google_drive_other_computers_review
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-Kyle@drmarchandslaboratory.com/.shortcut-targets-by-id,laboratory_google,research_and_development,0,113,quarantine_pattern,do_not_scan_deep_google_shortcut_index
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-Kyle@drmarchandslaboratory.com/.Trash,laboratory_google,research_and_development,0,96,quarantine_pattern,cloud_trash_review
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-Kyle@drmarchandslaboratory.com/.tmp,laboratory_google,research_and_development,0,94,quarantine_pattern,review_before_remove
+/Users/drmarchandslab.com/Library/CloudStorage/Dropbox-Kejstudio/.Trash,creative_canvas_dropbox,creative_production,0,71,quarantine_pattern,cloud_trash_review
+/Users/drmarchandslab.com/Downloads/.tmp.drivedownload,downloads,local_staging,0,54,quarantine_pattern,remove_if_empty_or_stale
+/Users/drmarchandslab.com/Desktop/.tmp.driveupload,desktop,local_staging,0,50,quarantine_pattern,remove_if_empty_or_stale
+/Users/drmarchandslab.com/Desktop/.tmp.drivedownload,desktop,local_staging,0,52,quarantine_pattern,remove_if_empty_or_stale
+/Users/drmarchandslab.com/Documents/.tmp.driveupload,documents,local_unclassified,10,52,quarantine_pattern,remove_if_empty_or_stale
