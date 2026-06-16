@@ -31,3 +31,17 @@
 - HubSpot as partner/client/company identity ledger.
 - Payment-to-agreement evidence model.
 - Contract/payment separation rule.
+
+## 2026-06-15
+
+### Added
+- Agreement/payment/delivery spine v1.
+- HubSpot as identity ledger.
+- Stripe as payment authority.
+- Adobe Sign as temporary signature provider.
+- PandaDoc as future preferred contract provider.
+- Dropbox as deliverable/package link authority.
+
+### Established
+- Payment proof and contract proof must be linked but not confused.
+- Contract provider must remain abstract for Adobe Sign to PandaDoc migration.
