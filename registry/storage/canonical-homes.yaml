@@ -1,0 +1,79 @@
+schema_version: 1.0
+registry_type: canonical_homes
+
+rules:
+  one_canonical_home_per_folder: true
+  noncanonical_locations_use_shortcuts_or_aliases: true
+  exact_mirror_requires_manifest_and_checksum: true
+  cloud_to_cloud_nesting_disallowed: true
+  shortcut_target_folders_are_not_canonical: true
+  trash_tmp_other_computers_are_not_canonical: true
+
+canonical_homes:
+  business_root:
+    mount: "OneDrive-drmarchands com"
+    role: business_system_authority
+    owns:
+      - contracts
+      - legal_records
+      - operating_docs
+      - system_registry
+      - lab_docs
+
+  kej_studio_payloads:
+    mount: "Dropbox-Kejstudio"
+    role: creative_payload_authority
+    owns:
+      - design_compositions
+      - source_artwork
+      - client_design_deliverables
+      - camera_uploads_pending_review
+
+  lab_code:
+    mount: "GitHub DrMarchand/api"
+    local_working_copy: "~/Developer/NFE/echo-discord-bot"
+    role: code_composition_authority
+    owns:
+      - api
+      - node_scripts
+      - docs_architecture
+      - registry_snapshots
+
+  google_workspace:
+    mounts:
+      - "GoogleDrive-design.jk.marchand@gmail.com"
+      - "GoogleDrive-design.kejstudio@gmail.com"
+      - "GoogleDrive-designorchard.kyle@gmail.com"
+      - "GoogleDrive-drjkmarchand@gmail.com"
+      - "GoogleDrive-Kyle@drmarchandslaboratory.com"
+    role: collaboration_reference_layer
+    owns:
+      - shared_docs
+      - collaboration_docs
+    not_allowed_to_own:
+      - canonical_archives
+      - vm_images
+      - recursive_cloud_backups
+
+  onedrive_personal:
+    mount: "OneDrive-Personal"
+    role: legacy_personal_review
+    status: quarantine_review
+
+  onedrive_drmarchands:
+    mount: "OneDrive-drmarchandscom"
+    role: landing_bridge
+    status: shortcut_layer_only
+
+  icloud:
+    mount: "iCloud Drive"
+    role: device_sync_only
+    status: no_archive_authority
+
+quarantine_patterns:
+  - ".shortcut-targets-by-id"
+  - ".Trash"
+  - ".tmp"
+  - "Other computers"
+  - "Google Drive (Not synced)"
+  - "Selective Sync Conflict"

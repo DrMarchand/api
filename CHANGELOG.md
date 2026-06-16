@@ -89,3 +89,14 @@
 ### Established
 - Pirate flag means suspicious, not confirmed compromise.
 - Big Brother remains read-only.
+
+## 2026-06-15
+
+### Added
+- Canonical Folder Policy v1.
+- Canonical homes registry.
+
+### Established
+- One real folder has one canonical home.
+- Non-canonical cloud locations become shortcuts or aliases.
+- Google Drive shortcut targets, tmp, trash, Other computers, and sync conflicts are quarantine zones.
