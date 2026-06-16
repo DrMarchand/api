@@ -1,0 +1,44 @@
+schema_version: 1.0
+registry_type: laboratory_infrastructure
+
+laboratory:
+  name: "DrMarchand's Laboratory"
+  role: satellite_inside_atlas
+  business_root: "Design Orchard LLC"
+  originating_author: "Joseph Kyle Marchand"
+  core_engine: "⚙︎ Nɛuro-Forge Engine™"
+
+relationship:
+  atlas:
+    role: static_titan_container
+  echo:
+    role: communication_route
+  lionheart:
+    role: execution_authority
+  workbench:
+    role: operator_surface
+  atomic_notebook:
+    role: permanent_archive
+
+allowed_functions:
+  - research
+  - experimentation
+  - api_testing
+  - bot_testing
+  - storage_auditing
+  - schema_drafting
+  - evidence_creation
+  - preproduction_validation
+
+restricted_functions:
+  - production_delete_without_approval
+  - secrets_storage
+  - unauthorized_permission_changes
+  - unverified_migration
+  - trademark_or_legal_claim_without_review
+
+evidence_policy:
+  git_commit_required: true
+  provenance_note_required: true
+  changelog_required: true
+  archive_reference_required_for_major_work: true

@@ -1,20 +1,15 @@
-# Changelog
 
 ## 2026-06-15
 
 ### Added
-- Atlas Echo Discord bot scaffold.
-- Express `/health` endpoint.
-- Discord slash-command scaffold for `nfe_status`.
-- Audit-only safety posture.
-- `.env.example`.
-- `.gitignore` excluding secrets and runtime artifacts.
-- Copyright notice.
-- Establishment log.
-- Copyright strategy documentation.
+- DrMarchand's Laboratory infrastructure v1.
+- Laboratory satellite model inside Atlas.
+- Laboratory registry.
+- Laboratory establishment provenance log.
 
 ### Established
-- Repository: `DrMarchand/api`
-- Business root: Design Orchard LLC
-- Creator/operator: Joseph Kyle Marchand
-- Runtime candidate: GoDaddy/cPanel Node.js beta under `drmarchandslaboratory.com`
+- Lab reports through Echo.
+- Echo routes toward Lionheart.
+- Lionheart governs execution.
+- Workbench displays state.
+- Atomic Notebook archives evidence.
