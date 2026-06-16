@@ -1,0 +1,24 @@
+==================================================
+BIG BROTHER NO MAN'S LAND AUDIT
+Generated: Mon Jun 15 22:44:56 EDT 2026
+Mode: READ ONLY
+==================================================
+
+=== LIKELY NO MAN'S LAND PATHS ===
+/Users/drmarchandslab.com/.zshrc.pro_corrupted
+/Users/drmarchandslab.com/Developer/NFE/echo-discord-bot/scripts/big_brother_graveyard_manifest.py
+/Users/drmarchandslab.com/Developer/NFE/echo-discord-bot/reports/graveyard_manifest_20260615_223929.csv
+/Users/drmarchandslab.com/Developer/NFE/echo-discord-bot/reports/graveyard_manifest_20260615_223918.csv
+/Users/drmarchandslab.com/Library/Application Support/Google/Chrome/NativeMessagingHosts
+/Users/drmarchandslab.com/Library/Application Support/OpenAI/ChatGPT Atlas/NativeMessagingHosts
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-drjkmarchand@gmail.com/My Drive/🏜️ No Man’s Land
+/Users/drmarchandslab.com/Library/Mail/V10/D71DB631-E280-48EA-B02E-327D767E11C2/Deleted Items.mbox
+/Users/drmarchandslab.com/Library/Mail/V10/9F368F25-4B5E-4468-89BE-0CDF03E679B2/Deleted Messages.mbox
+/Users/drmarchandslab.com/Library/Mail/V10/C29183C2-5212-41E3-827B-B46BE90D53B6/Deleted Items.mbox
+/Users/drmarchandslab.com/Library/Mail/V10/11656391-3CD7-4F3E-BCFC-BA5F9F12AE08/Deleted Items.mbox
+/Users/drmarchandslab.com/Library/Mail/V10/AB866484-DFB2-4C00-9979-1E919328657C/Deleted Items.mbox
+/Users/drmarchandslab.com/Library/CloudStorage_OLD/GoogleDrive-drjkmarchand@gmail.com/My Drive/🏜️ No Man’s Land
+/Users/drmarchandslab.com/Library/Caches/Animoji/ghost_AK356500000_cameraGrid_friendly2_e1_o1_165.00x165.00At2.00x.atx
+/Users/drmarchandslab.com/Library/Caches/Adobe/CCX Welcome/ghost
+/Users/drmarchandslab.com/Library/Caches/com.apple.cache_delete/CacheDeleteDaemonRecentInfo_v2
+/Users/drmarchandslab.com/.zshrc.corrupted
