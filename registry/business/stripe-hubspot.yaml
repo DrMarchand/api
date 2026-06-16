@@ -1,0 +1,77 @@
+schema_version: 1.0
+registry_type: stripe_hubspot_contract_spine
+
+business_root:
+  name: "Design Orchard LLC"
+  publishing_arm: "Design Orchard℠"
+  originating_author: "Joseph Kyle Marchand"
+
+roles:
+  stripe:
+    role: payment_authority
+  hubspot:
+    role: relationship_identity_ledger
+  atlas_api:
+    role: orchestration_gateway
+  asana:
+    role: execution_task_command_layer
+  notebook:
+    role: knowledge_evidence_archive
+  vault:
+    role: time_machine_backup_recovery
+
+id_model:
+  company_ids:
+    - design_orchard_company_id
+    - client_company_id
+    - partner_company_id
+  hubspot_ids:
+    - hubspot_contact_id
+    - hubspot_company_id
+    - hubspot_deal_id
+  stripe_ids:
+    - stripe_customer_id
+    - stripe_checkout_session_id
+    - stripe_payment_intent_id
+    - stripe_invoice_id
+  internal_ids:
+    - agreement_id
+    - contract_id
+    - notebook_record_id
+    - vault_snapshot_id
+    - asana_task_gid
+    - github_commit_sha
+
+event_flow:
+  agreement_created:
+    next: hubspot_identity_resolved
+  hubspot_identity_resolved:
+    next: stripe_checkout_created
+  stripe_checkout_created:
+    next: payment_pending
+  stripe_checkout_completed:
+    next: hubspot_deal_updated
+  payment_failed:
+    next: followup_task_created
+  hubspot_deal_updated:
+    next: asana_fulfillment_task_created
+  fulfillment_complete:
+    next: notebook_and_vault_archived
+
+rules:
+  stripe_is_payment_authority: true
+  hubspot_is_identity_ledger: true
+  payment_is_not_contract_signature_by_itself: true
+  contract_acceptance_must_be_recorded_separately: true
+  webhook_signature_verification_required: true
+  no_payment_or_api_secrets_in_git: true
+  no_raw_card_data_storage: true
+  high_value_contracts_require_manual_review: true
+  completed_paid_agreements_require_evidence_record: true
+
+api_routes_planned:
+  - POST /agreements/create
+  - POST /checkout/create
+  - POST /webhooks/stripe
+  - POST /hubspot/sync
+  - GET /records/:agreement_id

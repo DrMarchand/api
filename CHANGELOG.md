@@ -22,3 +22,12 @@
 - Vault as time-machine backup and recovery layer.
 - Workbench front end as human control surface.
 - Workbench back end as automation/API layer.
+
+## 2026-06-15
+
+### Added
+- Stripe + HubSpot contract spine v1.
+- Stripe as payment authority.
+- HubSpot as partner/client/company identity ledger.
+- Payment-to-agreement evidence model.
+- Contract/payment separation rule.
