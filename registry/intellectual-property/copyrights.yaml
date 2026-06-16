@@ -1,0 +1,27 @@
+schema_version: 1.0
+registry_type: copyrights
+
+works:
+  atlas_ecosystem_architecture:
+    title: "Atlas Ecosystem Architecture"
+    author: "Joseph Kyle Marchand"
+    business_root: "Design Orchard LLC"
+    status: unregistered
+    evidence_location: github
+    notes: "Architecture, documentation, registries, policies, and system design records."
+
+  neuro_forge_engine_records:
+    title: "Neuro-Forge Engine System Records"
+    author: "Joseph Kyle Marchand"
+    business_root: "Design Orchard LLC"
+    status: unregistered
+    evidence_location: github
+    notes: "System documentation and registry records."
+
+  rhythm_agenda_records:
+    title: "Rhythm Agenda Records"
+    author: "Joseph Kyle Marchand"
+    business_root: "Design Orchard LLC"
+    status: unregistered
+    evidence_location: github
+    notes: "Timing, payment, contract, and obligation layer documentation."

@@ -1,0 +1,33 @@
+schema_version: 1.0
+registry_type: trademark_candidates
+
+marks:
+  design_orchard:
+    display_name: "Design Orchard"
+    owner: "Design Orchard LLC"
+    status: common_law_or_candidate
+    notes: "Business root and publishing arm."
+
+  drmarchands_laboratory:
+    display_name: "DrMarchand's Laboratory"
+    owner: "Design Orchard LLC"
+    status: common_law_or_candidate
+    notes: "Research and development realm."
+
+  kej_studio:
+    display_name: "KEJ Studio"
+    owner: "Design Orchard LLC"
+    status: common_law_or_candidate
+    notes: "Design composition publication realm."
+
+  neuro_forge_engine:
+    display_name: "Neuro-Forge Engine"
+    owner: "Design Orchard LLC / Joseph Kyle Marchand"
+    status: internal_private_use_review_required
+    notes: "Use carefully due to external mark risk."
+
+  rhythm_agenda:
+    display_name: "Rhythm Agenda"
+    owner: "Design Orchard LLC"
+    status: candidate
+    notes: "Timing and obligation layer."

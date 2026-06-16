@@ -1,0 +1,36 @@
+schema_version: 1.0
+registry_type: merchant_accounts
+
+business_root: "Design Orchard LLC"
+
+merchant_systems:
+  stripe:
+    role: payment_processor
+    status: planned_or_active
+  paypal:
+    role: payment_processor
+    status: planned_or_active
+  venmo:
+    role: payment_processor
+    status: planned_or_active
+  cashapp:
+    role: payment_processor
+    status: planned_or_active
+  square:
+    role: payment_processor
+    status: planned_or_active
+
+required_ids:
+  - snowflake_id
+  - hubspot_deal_id
+  - merchant_transaction_id
+  - statement_id
+  - agreement_id
+  - godaddy_public_record_id
+
+rules:
+  merchant_is_payment_evidence_not_identity_authority: true
+  hubspot_deal_id_is_business_spine: true
+  snowflake_id_is_system_spine: true
+  statement_id_is_printable_record_spine: true
+  godaddy_database_stores_non_sensitive_ids_only: true

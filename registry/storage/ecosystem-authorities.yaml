@@ -1,0 +1,50 @@
+schema_version: 1.0
+registry_type: ecosystem_authorities
+
+authorities:
+  library:
+    display_name: "DrMarchand's Library"
+    platform: onedrive
+    role: institutional_memory
+
+  laboratory:
+    display_name: "DrMarchand's Laboratory"
+    platform: google_drive
+    role: research_and_development
+
+  lab:
+    display_name: "DrMarchand's Lab"
+    platform: icloud_drive
+    role: active_apple_workbench
+
+  creative_canvas:
+    display_name: "Creative Canvas"
+    platform: dropbox
+    role: creative_production
+
+  discord:
+    display_name: "Creative Canvas Discord Server"
+    platform: discord
+    role: signal_coordination
+
+  code:
+    display_name: "Neuro-Forge Engine"
+    platform: github
+    role: code_and_registry_authority
+
+  business:
+    display_name: "Design Orchard Business Operations"
+    platform: hubspot
+    role: client_deal_identity
+
+  rhythm_agenda:
+    display_name: "Rhythm Agenda"
+    platform: google_sheets_excel
+    role: timing_obligations_statements
+
+rules:
+  one_authority_per_object: true
+  non_authority_locations_are_alias_or_reference: true
+  boiler_room_preserves_uncertain_working_files: true
+  dumpster_holds_working_disconnected_files: true
+  graveyard_holds_broken_disconnected_files: true

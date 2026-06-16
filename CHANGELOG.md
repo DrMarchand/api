@@ -135,3 +135,23 @@
 - Identified three 25GB UTM/QCOW2 VM bundles with matching names, sizes, and timestamps.
 - Selected one canonical Laboratory VM.
 - Staged duplicate VM bundles for removal to recover approximately 50GB.
+
+## 2026-06-15
+
+### Added
+- Atlas Governance Roadmap v1.
+- Lifecycle Policy v1.
+- Ecosystem Topology v1.
+- Milestones log.
+- Ecosystem authorities registry.
+- Intellectual property copyright registry.
+- Trademark candidate registry.
+- Merchant accounts registry.
+- Big Brother authority registry generator.
+
+### Established
+- Authority, Active, Boiler Room, Dumpster, Graveyard, and Ashes lifecycle model.
+- One authority per object rule.
+- Merchant systems as payment evidence, not identity authority.
+- HubSpot Deal ID as business spine.
+- Snowflake ID as system spine.
