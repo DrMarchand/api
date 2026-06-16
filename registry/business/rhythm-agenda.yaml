@@ -1,0 +1,26 @@
+schema_version: 1.0
+registry_type: rhythm_agenda
+
+id: rhythm_agenda
+display_name: "Rhythm Agenda"
+role: timing_scheduling_obligation_layer
+business_root: "Design Orchard LLC"
+
+connects:
+  - hubspot_deals
+  - asana_tasks
+  - google_calendar
+  - microsoft_outlook_calendar
+  - merchant_payments
+  - contract_deadlines
+  - delivery_milestones
+  - excel_statements
+  - godaddy_public_index
+
+rules:
+  hubspot_deal_id_required: true
+  snowflake_id_required: true
+  statement_id_required_for_printable_payment_record: true
+  payment_due_dates_mirror_to_calendar: true
+  signed_contract_deadlines_mirror_to_asana: true
+  public_database_receives_non_sensitive_ids_only: true

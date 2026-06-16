@@ -100,3 +100,11 @@
 - One real folder has one canonical home.
 - Non-canonical cloud locations become shortcuts or aliases.
 - Google Drive shortcut targets, tmp, trash, Other computers, and sync conflicts are quarantine zones.
+
+## 2026-06-15
+
+### Added
+- Rhythm Agenda v1.
+
+### Established
+- Rhythm Agenda as the timing, scheduling, and obligation layer for Design Orchard LLC.
