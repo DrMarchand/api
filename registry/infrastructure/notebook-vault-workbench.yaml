@@ -1,0 +1,40 @@
+schema_version: 1.0
+registry_type: notebook_vault_workbench
+
+notebook:
+  name: "📒 DrMarchand's ⚛︎ Notebook™"
+  role: primary_knowledge_archive
+  answers: "What do we know?"
+  stores:
+    - research_notes
+    - architecture_notes
+    - system_decisions
+    - evidence_summaries
+    - documentation_records
+
+vault:
+  name: "🔐 DrMarchand's ⚛ VAULT™"
+  role: time_machine_backup_recovery_layer
+  answers: "What did we know or have at a specific point in time?"
+  stores:
+    - historical_snapshots
+    - recovery_archives
+    - backup_states
+    - prior_versions
+    - disaster_recovery_evidence
+
+workbench:
+  frontend:
+    name: "🪑 DrMarchand's ☸ Workbench™"
+    role: human_operator_control_surface
+  backend:
+    name: "⑁ DrMarchand's ☸ Workbench™"
+    role: automation_api_coordination_layer
+
+rules:
+  notebook_is_knowledge_archive: true
+  vault_is_backup_recovery: true
+  workbench_frontend_is_human_interface: true
+  workbench_backend_is_api_automation_layer: true
+  major_changes_require_git_commit: true
+  major_changes_require_provenance_note: true
