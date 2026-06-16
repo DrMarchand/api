@@ -1,0 +1,61 @@
+schema_version: 1.0
+registry_type: validation_cycle
+
+states:
+  curiosity:
+    symbol: "👀"
+    role: exploration
+    definition: question_explore_inspect
+
+  unknown:
+    symbol: "👁️‍🗨️"
+    role: unresolved
+    definition: not_established
+
+  clarity:
+    symbol: "👁️"
+    role: understood
+    definition: describable_with_evidence
+
+  safety:
+    symbol: "🥽"
+    role: risk_control
+    definition: risk_reviewed_controls_active
+
+  validated:
+    symbol: "✅"
+    role: accepted
+    definition: passed_required_check
+
+  validated_undeniable_fact:
+    symbol: "💯"
+    role: doctrine_candidate
+    definition: evidence_reproducible_reviewed_stable
+
+  rejected:
+    symbol: "❌"
+    role: blocked
+    definition: unsafe_unverified_contradicted_broken_corrupted_or_not_reproducible
+
+internal_only:
+  arrogance_listener:
+    symbol: "hidden"
+    public: false
+    role: detect_certainty_without_evidence
+
+rules:
+  unknown_is_not_clarity: true
+  clarity_is_not_validation: true
+  validation_is_not_fact: true
+  no_unknown_to_validated_jump: true
+  safety_required_before_validated: true
+  evidence_required_for_validated_undeniable_fact: true
+  rejected_blocks_promotion: true
+  public_docs_must_not_expose_internal_arrogance_symbol: true
+
+fact_requirements:
+  - evidence_exists
+  - evidence_is_reproducible
+  - evidence_survives_review
+  - evidence_survives_challenge
+  - authority_source_declared
