@@ -108,3 +108,11 @@
 
 ### Established
 - Rhythm Agenda as the timing, scheduling, and obligation layer for Design Orchard LLC.
+
+## 2026-06-15
+
+### Added
+- Titan Recovery Escalation v1.
+- Phoenix healing authority and Lionheart Reboot protocol.
+- Infinity OS investigation trigger after repeated Engine failure.
+- NFE space recovery reporting script.

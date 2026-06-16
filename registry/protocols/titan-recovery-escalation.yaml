@@ -1,0 +1,35 @@
+schema_version: 1.0
+registry_type: titan_recovery_escalation
+
+atlas:
+  role: protected_static_anchor
+  reboot_self: false
+
+phoenix:
+  role: healing_authority
+  can_activate_lionheart_reboot: true
+  cannot_execute_reboot_directly: true
+
+lionheart:
+  role: controlled_reboot_executor
+  reboot_type: post_update_recovery_restart
+
+neuro_forge_engine:
+  role: runtime_router_and_signal_engine
+  repeated_crash_action: investigate_engine
+
+infinity_os:
+  name: "DrMarchand's Infinity OS"
+  role: operating_framework
+  investigation_trigger: repeated_engine_failure_after_lionheart_reboot
+
+escalation_ladder:
+  - titan_interception
+  - sabertooth_containment
+  - phoenix_healing_check
+  - lionheart_reboot
+  - watchdog_validation
+  - echo_report
+  - engine_investigation
+  - infinity_os_audit
+  - infrastructure_review
