@@ -1,0 +1,75 @@
+==================================================
+BIG BROTHER DUPLICATE FOLDER AUDIT
+Generated: Mon Jun 15 21:54:37 EDT 2026
+Mode: READ ONLY / BOUNDED
+==================================================
+
+=== TOP LEVEL CLOUD ROOTS ===
+/Users/drmarchandslab.com/Library/CloudStorage
+/Users/drmarchandslab.com/Library/CloudStorage/Dropbox-Kejstudio
+/Users/drmarchandslab.com/Library/CloudStorage/Dropbox-Kejstudio/.Trash
+/Users/drmarchandslab.com/Library/CloudStorage/Dropbox-Kejstudio/KEJ Studio™
+/Users/drmarchandslab.com/Library/CloudStorage/Dropbox-Personal
+/Users/drmarchandslab.com/Library/CloudStorage/Dropbox-Personal/🔬 DrMarchand’s Lab⚛︎ratory™.📨
+/Users/drmarchandslab.com/Library/CloudStorage/Dropbox-Personal/.Trash
+/Users/drmarchandslab.com/Library/CloudStorage/Dropbox-Personal/Amanda & Josh’s Wedding
+/Users/drmarchandslab.com/Library/CloudStorage/Dropbox-Personal/Archive
+/Users/drmarchandslab.com/Library/CloudStorage/Dropbox-Personal/Camera Uploads
+/Users/drmarchandslab.com/Library/CloudStorage/Dropbox-Personal/Computer Archive
+/Users/drmarchandslab.com/Library/CloudStorage/Dropbox-Personal/Design Orchard LLC
+/Users/drmarchandslab.com/Library/CloudStorage/Dropbox-Personal/Family Room
+/Users/drmarchandslab.com/Library/CloudStorage/Dropbox-Personal/Screenshots
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-design.jk.marchand@gmail.com
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-design.jk.marchand@gmail.com/.Encrypted
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-design.jk.marchand@gmail.com/.shortcut-targets-by-id
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-design.jk.marchand@gmail.com/.tmp
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-design.jk.marchand@gmail.com/.Trash
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-design.jk.marchand@gmail.com/My Drive
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-design.jk.marchand@gmail.com/Shared drives
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-design.kejstudio@gmail.com
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-designorchard.kyle@gmail.com
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-designorchard.kyle@gmail.com/.Encrypted
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-designorchard.kyle@gmail.com/.shortcut-targets-by-id
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-designorchard.kyle@gmail.com/.tmp
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-designorchard.kyle@gmail.com/.Trash
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-designorchard.kyle@gmail.com/My Drive
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-designorchard.kyle@gmail.com/Shared drives
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-drjkmarchand@gmail.com
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-drjkmarchand@gmail.com/.Encrypted
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-drjkmarchand@gmail.com/.shortcut-targets-by-id
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-drjkmarchand@gmail.com/.tmp
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-drjkmarchand@gmail.com/.Trash
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-drjkmarchand@gmail.com/My Drive
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-drjkmarchand@gmail.com/Other computers
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-drjkmarchand@gmail.com/Shared drives
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-Kyle@drmarchandslaboratory.com
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-Kyle@drmarchandslaboratory.com/.mirror-symlink
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-Kyle@drmarchandslaboratory.com/.shortcut-targets-by-id
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-Kyle@drmarchandslaboratory.com/.tmp
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-Kyle@drmarchandslaboratory.com/.Trash
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-Kyle@drmarchandslaboratory.com/My Drive
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-Kyle@drmarchandslaboratory.com/Other computers
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-Kyle@drmarchandslaboratory.com/Shared drives
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchands com
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchands com/00_INBOX
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchands com/01_ACTIVE
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchands com/02_CLIENTS
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchands com/03_LLC
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchands com/04_LAB
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchands com/05_LIB
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchands com/06_KEJ
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchands com/07_CODE
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchands com/08_ARCH
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchands com/09_BKIDX
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchands com/99_SYS
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchandscom
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchandscom/🛰️ DrMarchand’s Lab™
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchandscom/.Trash
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchandscom/Design Orchard℠
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-drmarchandscom/OneDrive_NFE_BRIDGE
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-Personal
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-Personal/📚 DrMarchand’s ⚛︎ Library™.🖥️
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-Personal/🔬 DrMarchand’s Lab⚛︎ratory™.💻
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-Personal/∞ OS™.♾️
+
+=== DUPLICATE FOLDER BASENAMES MAXDEPTH 6 ===

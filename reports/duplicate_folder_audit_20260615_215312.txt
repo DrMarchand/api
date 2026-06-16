@@ -1,0 +1,7 @@
+==================================================
+BIG BROTHER DUPLICATE FOLDER AUDIT
+Generated: Mon Jun 15 21:53:12 EDT 2026
+Mode: READ ONLY
+==================================================
+
+=== DUPLICATE FOLDER BASENAMES ===

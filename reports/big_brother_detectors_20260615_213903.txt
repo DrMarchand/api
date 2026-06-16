@@ -1,0 +1,54 @@
+==================================================
+👁️ BIG BROTHER DETECTOR REPORT 👁️
+Generated: 2026-06-15T21:39:03.303296
+Mode: READ ONLY
+==================================================
+
+👁️ === DISK PRESSURE DETECTOR ===
+/dev/disk3s1   460Gi   413Gi    11Gi    98%    3.4M  115M    3%   /System/Volumes/Data
+🏴‍☠️ disk_pressure_high: 98%
+
+👁️ === CLOUD ACCOUNT DETECTOR ===
+✅ trusted_mount: Dropbox-Kejstudio
+✅ trusted_mount: Dropbox-Personal
+✅ trusted_mount: GoogleDrive-Kyle@drmarchandslaboratory.com
+✅ trusted_mount: GoogleDrive-design.jk.marchand@gmail.com
+✅ trusted_mount: GoogleDrive-design.kejstudio@gmail.com
+✅ trusted_mount: GoogleDrive-designorchard.kyle@gmail.com
+✅ trusted_mount: GoogleDrive-drjkmarchand@gmail.com
+✅ trusted_mount: OneDrive-Personal
+✅ trusted_mount: OneDrive-drmarchands com
+✅ trusted_mount: OneDrive-drmarchandscom
+
+👁️ === GOOGLE ACCOUNT DETECTOR ===
+✅ trusted_google_account: GoogleDrive-Kyle@drmarchandslaboratory.com
+✅ trusted_google_account: GoogleDrive-design.jk.marchand@gmail.com
+✅ trusted_google_account: GoogleDrive-design.kejstudio@gmail.com
+✅ trusted_google_account: GoogleDrive-designorchard.kyle@gmail.com
+✅ trusted_google_account: GoogleDrive-drjkmarchand@gmail.com
+
+🛡️ === SECRET FILENAME DETECTOR ===
+🏴‍☠️ possible_secret_file: /Users/drmarchandslab.com/Developer/NFE/echo-discord-bot/.env.example
+🏴‍☠️ possible_secret_file: /Users/drmarchandslab.com/Developer/NFE/echo-discord-bot/.env.example
+
+👁️ === GIT DETECTOR ===
+?? reports/
+origin	https://github.com/DrMarchand/api.git (fetch)
+origin	https://github.com/DrMarchand/api.git (push)
+
+🛡️ === SSH DETECTOR ===
+🏴‍☠️ sensitive_ssh_file_present: authorized_keys mode=600
+✅ ssh_file: config mode=600
+🏴‍☠️ sensitive_ssh_file_present: config.bak mode=600
+🏴‍☠️ sensitive_ssh_file_present: id_ed25519 mode=600
+✅ ssh_file: id_ed25519.pub mode=644
+🏴‍☠️ sensitive_ssh_file_present: id_ed25519_library mode=600
+✅ ssh_file: id_ed25519_library.pub mode=644
+🏴‍☠️ sensitive_ssh_file_present: id_rsa_forge mode=600
+✅ ssh_file: id_rsa_forge.pub mode=644
+✅ ssh_file: known_hosts mode=600
+🏴‍☠️ sensitive_ssh_file_present: known_hosts.old mode=600
+
+==================================================
+REPORT: /Users/drmarchandslab.com/Developer/NFE/echo-discord-bot/reports/big_brother_detectors_20260615_213903.txt
+==================================================
