@@ -1,0 +1,31 @@
+schema_version: 1.0
+registry_type: big_brother_detectors
+
+node:
+  id: big_brother
+  role: read_only_visibility
+
+detectors:
+  unknown_cloud_mounts:
+    icon: pirate_flag
+    risk: moderate
+  unregistered_google_accounts:
+    icon: pirate_flag
+    risk: moderate
+  possible_secret_filenames:
+    icon: pirate_flag
+    risk: high
+  ssh_sensitive_files:
+    icon: pirate_flag
+    risk: high
+  disk_pressure_high:
+    icon: pirate_flag
+    risk: high
+
+rules:
+  read_only: true
+  no_delete: true
+  no_move: true
+  no_permission_change: true
+  watchdog_reviews_flags: true
+  lionheart_required_for_remediation: true

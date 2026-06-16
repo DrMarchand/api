@@ -75,3 +75,17 @@
 - Big Brother observes only.
 - Watchdog evaluates.
 - Lionheart authorizes remediation.
+
+## 2026-06-15
+
+### Added
+- Big Brother detector mode.
+- Pirate flag indicators for suspicious visibility events.
+- Google account and cloud mount detector.
+- Secret filename detector.
+- SSH visibility detector.
+- Disk pressure detector.
+
+### Established
+- Pirate flag means suspicious, not confirmed compromise.
+- Big Brother remains read-only.
