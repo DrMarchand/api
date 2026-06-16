@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "updated": "2025-11-04T13:12:00Z",
+  "servers": [
+    {
+      "name": "Dr. Marchand’s • Laboratory™",
+      "slug": "lab",
+      "emoji": "🧪",
+      "route": "/lab",
+      "discord_route": "/discord/lab",
+      "invite": "https://discord.gg/kDA6mH3haQ"
+    },
+    {
+      "name": "The Creative Guild™",
+      "slug": "guild",
+      "emoji": "🖼️",
+      "route": "/guild",
+      "discord_route": "/discord/guild",
+      "invite": "https://discord.gg/Na5fqE4bUu"
+    },
+    {
+      "name": "Design Orchard™",
+      "slug": "orchard",
+      "emoji": "🎨",
+      "route": "/orchard",
+      "discord_route": "/discord/orchard",
+      "invite": "https://discord.gg/8Ak2Ny56QV"
+    },
+    {
+      "name": "KEJ Studio™",
+      "slug": "kej",
+      "emoji": "🎥",
+      "route": "/art",
+      "discord_route": "/discord/kej",
+      "invite": "https://discord.gg/gRhZBgYWPP"
+    }
+  ],
+  "provenance": {
+    "mms_768": "timestamp-verified",
+    "hash_sha256": "<fill-on-release>"
+  }
+}
