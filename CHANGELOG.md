@@ -193,3 +193,16 @@
 - Validation is not Fact.
 - Big Brother protects Atlas from arrogance.
 - Internal arrogance listener is not public-facing.
+
+## 2026-06-15
+
+### Added
+- Public Symbol Policy v1.
+- Governance Index v1.
+- Atlas Governance Framework copyright entry.
+- Additional trademark candidate/internal-name records.
+
+### Established
+- Public symbols may describe validation and safety states.
+- Internal arrogance detection remains non-public.
+- Toolbox, No Man's Land, Big Brother, and Lionheart Reboot are now recorded in IP registries.

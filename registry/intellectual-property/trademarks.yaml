@@ -31,3 +31,33 @@ marks:
     owner: "Design Orchard LLC"
     status: candidate
     notes: "Timing and obligation layer."
+
+  atlas_governance_framework:
+    display_name: "Atlas Governance Framework"
+    owner: "Design Orchard LLC"
+    status: candidate
+    notes: "Governance framework for the DrMarchand ecosystem."
+
+  big_brother:
+    display_name: "Big Brother"
+    owner: "Design Orchard LLC / Joseph Kyle Marchand"
+    status: internal_system_name
+    notes: "Anti-arrogance oversight layer."
+
+  lionheart_reboot:
+    display_name: "Lionheart Reboot"
+    owner: "Design Orchard LLC / Joseph Kyle Marchand"
+    status: internal_protocol
+    notes: "Recovery and reboot protocol."
+
+  no_mans_land:
+    display_name: "No Man's Land"
+    owner: "Design Orchard LLC / Joseph Kyle Marchand"
+    status: internal_lifecycle_layer
+    notes: "Ghost, corrupted, deleted, or unrecoverable evidence layer."
+
+  toolbox:
+    display_name: "Toolbox"
+    owner: "Design Orchard LLC / Joseph Kyle Marchand"
+    status: internal_lifecycle_layer
+    notes: "Blueprint layer."

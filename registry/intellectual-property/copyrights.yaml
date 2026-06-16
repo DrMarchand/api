@@ -25,3 +25,18 @@ works:
     status: unregistered
     evidence_location: github
     notes: "Timing, payment, contract, and obligation layer documentation."
+
+  atlas_governance_framework:
+    title: "Atlas Governance Framework"
+    author: "Joseph Kyle Marchand"
+    business_root: "Design Orchard LLC"
+    status: unregistered
+    evidence_location: github
+    includes:
+      - lifecycle_architecture
+      - validation_cycle
+      - truth_gate
+      - authority_model
+      - ecosystem_topology
+      - public_symbol_policy
+    notes: "Governance framework defining lifecycle states, validation gates, authority rules, and evidence discipline."
