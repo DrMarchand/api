@@ -1,0 +1,20 @@
+==================================================
+NFE SPACE RECOVERY REPORT
+Generated: Mon Jun 15 22:17:11 EDT 2026
+Mode: READ ONLY / BOUNDED
+==================================================
+
+=== DISK ===
+Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1   460Gi   387Gi    37Gi    92%    3.4M  385M    1%   /System/Volumes/Data
+
+=== SAFE HOME TOP DIRS ===
+7.3G	/Users/drmarchandslab.com/Downloads
+3.3G	/Users/drmarchandslab.com/Pictures
+220M	/Users/drmarchandslab.com/Music
+2.4M	/Users/drmarchandslab.com/Developer
+1.7M	/Users/drmarchandslab.com/Documents
+192K	/Users/drmarchandslab.com/Movies
+176K	/Users/drmarchandslab.com/Desktop
+
+=== LIBRARY TOP BOUNDED ===
