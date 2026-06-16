@@ -1,0 +1,20 @@
+==================================================
+BIG BROTHER NO MAN'S LAND AUDIT
+Generated: Mon Jun 15 22:48:16 EDT 2026
+Mode: READ ONLY
+==================================================
+
+=== LIFECYCLE LANDMARK PATHS ===
+/Users/drmarchandslab.com/.zshrc.pro_corrupted
+/Users/drmarchandslab.com/Developer/NFE/echo-discord-bot/scripts/big_brother_graveyard_manifest.py
+/Users/drmarchandslab.com/Developer/NFE/echo-discord-bot/reports/graveyard_manifest_20260615_223929.csv
+/Users/drmarchandslab.com/Developer/NFE/echo-discord-bot/reports/graveyard_manifest_20260615_223918.csv
+/Users/drmarchandslab.com/.dropbox_bi/5b706e1edf810f929b46f2f1b4ca7d9acaae13de1f5954592edafdc0a5aa67ce/DropboxBackup/Mac (2)/Desktop.dbx-computer-backup/Google Drive (Not synced)/Lost and Found
+/Users/drmarchandslab.com/.dropbox_bi/5b706e1edf810f929b46f2f1b4ca7d9acaae13de1f5954592edafdc0a5aa67ce/DropboxBackup/Mac (2)/Desktop.dbx-computer-backup/Google Drive (Not synced) (1)/Lost and Found
+/Users/drmarchandslab.com/Library/Application Support/Google/Chrome/NativeMessagingHosts
+/Users/drmarchandslab.com/Library/Application Support/OpenAI/ChatGPT Atlas/NativeMessagingHosts
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-Personal/🔬 DrMarchand’s Lab⚛︎ratory™.💻/🔬 DrMarchand’s Lab⚛︎ratory™/🔬 DrMarchand’s • Laboratory™️/🏜️ No Man’s Land
+/Users/drmarchandslab.com/Library/CloudStorage/OneDrive-Personal/∞ OS™.♾️/🏡/🗑️/🛢️ DrMarchand’s ⚛︎ Boiler Room™
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-design.jk.marchand@gmail.com/.shortcut-targets-by-id/1CKnep-oZrEKpYb5rhFs72YC6gYt4zrX8/WORKBENCH/🏜️ No Man’s Land
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-design.jk.marchand@gmail.com/.shortcut-targets-by-id/1MTdY-fRVTx77_kzohgwJfoKGqKha9WUW/🏜️ No Man’s Land
+/Users/drmarchandslab.com/Library/CloudStorage/GoogleDrive-design.jk.marchand@gmail.com/.shortcut-targets-by-id/1tRawfjM-sTjDC7mWITdZLXhXbsQOYg--/🛢️ DrMarchand’s ⚛︎ Boiler Drum™

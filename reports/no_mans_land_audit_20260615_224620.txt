@@ -1,0 +1,12 @@
+==================================================
+BIG BROTHER NO MAN'S LAND AUDIT
+Generated: Mon Jun 15 22:46:20 EDT 2026
+Mode: READ ONLY
+==================================================
+
+=== LIFECYCLE LANDMARK PATHS ===
+/Users/drmarchandslab.com/.zshrc.pro_corrupted
+/Users/drmarchandslab.com/Developer/NFE/echo-discord-bot/scripts/big_brother_graveyard_manifest.py
+/Users/drmarchandslab.com/Developer/NFE/echo-discord-bot/reports/graveyard_manifest_20260615_223929.csv
+/Users/drmarchandslab.com/Developer/NFE/echo-discord-bot/reports/graveyard_manifest_20260615_223918.csv
+/Users/drmarchandslab.com/Library/Application Support/Google/Chrome/NativeMessagingHosts
