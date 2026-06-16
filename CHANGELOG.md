@@ -128,3 +128,10 @@
 ### Next Target
 - Audit ~/VirtualMachines for removable VM payloads.
 - Thin Time Machine local snapshots if needed.
+
+## 2026-06-15
+
+### VM Cleanup
+- Identified three 25GB UTM/QCOW2 VM bundles with matching names, sizes, and timestamps.
+- Selected one canonical Laboratory VM.
+- Staged duplicate VM bundles for removal to recover approximately 50GB.
