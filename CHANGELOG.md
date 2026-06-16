@@ -155,3 +155,17 @@
 - Merchant systems as payment evidence, not identity authority.
 - HubSpot Deal ID as business spine.
 - Snowflake ID as system spine.
+
+
+## 2026-06-15
+
+### Corrected
+- Lifecycle model corrected by Joseph Kyle Marchand.
+- Boiler Room is the Documents layer for working but weird files.
+- Dumpster is the Downloads layer for staging before Documents or Trash.
+- Graveyard is No Man's Land for deleted, corrupted, broken, or ghost records.
+
+### Established
+- Downloads is not authority.
+- Documents may contain Boiler Room material.
+- Graveyard is evidence of loss/corruption/deletion, not normal storage.

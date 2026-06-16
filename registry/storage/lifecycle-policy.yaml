@@ -1,0 +1,70 @@
+schema_version: 1.0
+registry_type: lifecycle_policy
+
+layers:
+  authority:
+    role: source_of_truth
+    may_own_records: true
+
+  active:
+    role: current_operational_work
+    expected_to_change: true
+
+  boiler_room:
+    role: documents_layer_working_weird_files
+    primary_location: Documents
+    rule: do_not_delete_until_understood
+    contains:
+      - working_documents
+      - weird_but_functional_files
+      - legacy_notes
+      - bridge_notes
+      - migration_instructions
+      - experimental_documents
+
+  dumpster:
+    role: downloads_layer_staging
+    primary_location: Downloads
+    rule: not_authority
+    destination_options:
+      - Documents
+      - Creative_Canvas
+      - Library
+      - GitHub
+      - Trash
+    contains:
+      - downloads
+      - temporary_exports
+      - installers
+      - imported_camera_uploads
+      - staging_zips
+      - pending_review_material
+
+  graveyard:
+    role: no_mans_land_deleted_corrupted_ghost_records
+    primary_location: no_mans_land
+    rule: evidence_only_not_storage
+    contains:
+      - corrupted_files
+      - broken_aliases
+      - broken_symlinks
+      - dead_shortcuts
+      - deleted_file_records
+      - emptied_trash_evidence
+      - ghost_paths
+      - unrecoverable_references
+
+  ashes:
+    role: final_removed_state
+    requires:
+      - documentation
+      - evidence
+      - approval
+
+rules:
+  downloads_is_dumpster: true
+  documents_can_be_boiler_room: true
+  graveyard_is_no_mans_land: true
+  graveyard_is_not_normal_storage: true
+  dumpster_files_should_be_promoted_or_trashed: true
+  boiler_room_files_require_understanding_before_action: true
