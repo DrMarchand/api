@@ -1,189 +1,80 @@
-# ⚙︎ Nɛuro-Forge Engine™
+# Echo — Discord Audit Bot
 
-Runtime orchestration engine for **DrMarchand’s ∞ OS™**
+> A minimal Discord guild-command adapter with an HTTP health endpoint, implemented in `DrMarchand/api`.
 
-**Authority:** © Design Orchard LLC  
-**Owner / Operator:** Joseph Kyle Marchand  
-**Runtime:** 🔬 DrMarchand’s Lab⚛︎ratory™  
-**Archive:** 📚 DrMarchand’s ⚛︎ Library™  
+`api` is the existing repository identifier. The checked-in package identifies the service as `echo-discord-bot`; this repository is not the full DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ API described by the previous README.
 
----
+## Quick start
 
-## Overview
-
-The **Nɛuro-Forge Engine™** is the runtime layer responsible for executing the architecture of **DrMarchand’s ∞ OS™**.
-
-It coordinates identity, connectors, event processing, and system integrity across the broader system.
-
-This engine supports:
-
-- 🔬 **DrMarchand’s Lab⚛︎ratory™**
-- 📚 **DrMarchand’s ⚛︎ Library™**
-- 🪑 **DrMarchand’s ☸︎ Workbench™**
-
-All operating under:
-
-- 🌴 **Design Orchard LLC ©**
-
----
-
-## System Philosophy
-
-The system is built on three core principles:
-
-### ⚙️ Append-Only Truth
-Events are not edited after they are written.  
-System state is derived from recorded history.
-
-### 🔐 Identity First
-Identity is defined as `(provider, provider_sub)`, not email.
-
-### 🧭 Deterministic Runtime
-Commands produce events.  
-Events update projections.  
-Interfaces reflect projections.
-
-```txt
-Command → Event → Projection → Interface
+```bash
+npm ci
+cp .env.example .env
+npm start
 ```
 
-The engine does not mutate truth retroactively.  
-It processes, records, and derives from what has already occurred.
+`npm start` runs [`index.js`](index.js), as defined by [`package.json`](package.json). Keep the real Discord token in the local `.env`; [`.gitignore`](.gitignore) excludes that file.
 
----
+If the required Discord variables are absent, the HTTP health server still starts and the Discord client does not log in.
 
-## Core Responsibilities
+## Commands
 
-The **Nɛuro-Forge Engine™** provides:
+| Command | Effect | Defined by |
+|---|---|---|
+| `npm ci` | Installs the locked dependency tree | [`package-lock.json`](package-lock.json) |
+| `npm start` | Starts the health server and, when configured, the Discord client | [`package.json`](package.json) |
+| `npm test` | Exits with “no test specified” | [`package.json`](package.json) |
 
-- 📡 connector orchestration
-- 🔐 identity verification
-- 📜 event ingestion
-- 🧾 append-only ledger storage
-- 📊 projection generation
-- 🧠 runtime state coordination
+## Implemented surfaces
 
----
+| Surface | Current behavior | Source |
+|---|---|---|
+| `GET /health` | Returns service name, application name, integration mode, and current timestamp | [`index.js`](index.js) |
+| `/nfe_status` | Guild slash command returning Echo/Atlas integration status | [`index.js`](index.js) |
+| Discord registration | Registers the guild command when token, client ID, and guild ID are present | [`index.js`](index.js) |
 
-## Event System
+`nfe_status` is a compatibility command identifier. Published prose should introduce the full Engine identity as DrMarchand’s ⚙︎ Nɛuro-Forge Engine™.
 
-The platform runs on an **append-only event ledger**.
+## Configuration
 
-Each action emits an immutable event record.
+| Variable | Required for | Boundary |
+|---|---|---|
+| `DISCORD_TOKEN` | Discord registration and login | Secret; never commit |
+| `DISCORD_CLIENT_ID` | Guild command registration | Runtime configuration |
+| `DISCORD_GUILD_ID` | Guild command registration | Runtime configuration |
+| `DISCORD_ALERT_CHANNEL_ID` | Reserved in [`.env.example`](.env.example) | Not consumed by current `index.js` |
+| `PORT` | HTTP health server | Defaults to `8787` |
 
-### Example events
+## Runtime boundary
 
-```txt
-user.created
-oauth.authorized
-connector.connect.succeeded
+Echo is a communications and status adapter. It does not implement 🗺️ DrMarchand’s ⚛︎ Atlas, DrMarchand’s ⚙︎ Nɛuro-Forge Engine™, or organizational authority.
 
-host.boot.completed
-host.heartbeat
-power.source.changed
-power.battery.snapshot
+The current code implements one read-only status command and one health endpoint. The `audit-only` label describes the present mode; it is not proof of a generalized authorization or blocking framework.
 
-atom.isotope.set
-atom.isotope.locked
+External Discord communication is a Bridge boundary. It does not make Discord, Echo, or this repository an internal Engine component.
+
+## Architecture
+
+`Discord user → external Discord Bridge → Echo service → read-only status response`
+
+The HTTP health route is a separate local service surface. The current code does not call the Engine or Atlas.
+
+## Validation
+
+`npm test` currently exits with “no test specified.” No automated test suite is claimed.
+
+Useful checks after checkout:
+
+```bash
+node --check index.js
+npm start
+curl http://localhost:8787/health
 ```
 
-Events are hash-chained to support integrity and traceability.
+The health response proves only that the observed process answered that request. It does not prove Discord connectivity when the required credentials are absent.
 
----
+## Authority and license
 
-## Repository Structure
+Legal authority: `Design Orchard LLC`  
+Copyright attribution: `© Design Orchard LLC`
 
-```txt
-engine/
-├── api/                # runtime endpoints
-├── projections/        # state projections
-├── core/               # engine primitives
-├── ledger/             # event integrity
-└── security/           # identity verification
-```
-
-### Future modules
-
-```txt
-agents/                 # host sentinel nodes
-connectors/             # external system bridges
-workbench/              # developer interface
-```
-
----
-
-## Security Model
-
-The engine enforces a strict runtime security posture:
-
-- PKCE OAuth flows
-- no client-side refresh tokens
-- sandboxed connectors
-- HMAC device verification
-- AES-256 token storage
-- append-only event ledger
-
-Integrity is prioritized throughout the runtime.
-
----
-
-## Relationship to ∞ OS™
-
-The **Nɛuro-Forge Engine™** is one component of the larger **DrMarchand’s ∞ OS™** structure.
-
-```txt
-∞ OS™
-↓
-⚙︎ Nɛuro-Forge Engine™
-↓
-🔬 DrMarchand’s Lab⚛︎ratory™
-↓
-📚 DrMarchand’s ⚛︎ Library™
-↓
-🪑 DrMarchand’s ☸︎ Workbench™
-```
-
-### Functional relationship
-
-- **∞ OS™** provides the broader system structure and governance model
-- **Nɛuro-Forge Engine™** provides runtime orchestration and execution logic
-
----
-
-## Current Development Phase
-
-**∞ OS™ v4.x · Runtime Architecture**
-
-### Active work
-- ⚙️ engine runtime
-- 📜 event ledger
-- 📡 connector protocol
-- 🧠 projection system
-
-### Upcoming
-- 🧭 workbench console
-- 📦 host sentinel agents
-- 🔐 vault key management
-
----
-
-## Motto
-
-> Where code becomes architecture.
-
----
-
-## License
-
-© **Design Orchard LLC**  
-All rights reserved.
-
----
-
-## System References
-
-- 🌴 **Design Orchard™**
-- 🔬 **DrMarchand’s Lab⚛︎ratory™**
-- ⚙︎ **Nɛuro-Forge Engine™**
-- 📚 **DrMarchand’s ⚛︎ Library™**
-- ∞ **DrMarchand’s ∞ OS™**
+[`package.json`](package.json) declares `ISC`, while [`LICENSE`](LICENSE) contains different MMS-oriented terms. License scope remains unresolved pending authorized owner/legal review; this README does not alter either artifact.
