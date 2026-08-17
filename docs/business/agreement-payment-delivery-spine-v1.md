@@ -3,7 +3,7 @@
 **Date Established:** 2026-06-15  
 **Originating Author:** Joseph Kyle Marchand  
 **Business Root:** Design Orchard LLC  
-**Publishing Arm:** Design Orchard℠  
+**Service brand:** 🏝️ Design Orchard℠  
 **System:** Atlas API
 
 ## Purpose
@@ -24,13 +24,13 @@ Create a secure and easy system where a client or partner receives:
 
 HubSpot is the identity ledger.
 
-Stripe is the payment authority.
+Stripe is the payment processor; it does not hold organizational authority.
 
-Adobe Sign is the temporary signature authority.
+Adobe Sign is the current signature tool; it does not hold organizational authority.
 
-PandaDoc is the preferred future contract authority.
+PandaDoc is a candidate future contract tool; it does not hold organizational authority.
 
-Dropbox is the deliverable/package link authority.
+Dropbox is the active-asset and deliverable-link surface; it does not hold organizational authority.
 
 Atlas API coordinates the workflow.
 
@@ -84,4 +84,4 @@ PandaDoc.
 
 The system must keep contract_provider abstract so Adobe Sign can later be replaced by PandaDoc.
 
-Copyright © 2026 Joseph Kyle Marchand and/or Design Orchard LLC.
+Copyright © 2026 Joseph Kyle Marchand.
