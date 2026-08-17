@@ -44,4 +44,4 @@ Echo communicates.
 Workbench displays.
 Notebook archives.
 
-Copyright 2026 Joseph Kyle Marchand and/or Design Orchard LLC.
+Copyright © 2026 Joseph Kyle Marchand.
