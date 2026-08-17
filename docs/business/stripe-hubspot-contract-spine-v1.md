@@ -4,7 +4,7 @@
 **Originating Author:** Joseph Kyle Marchand  
 **Business Root:** Design Orchard LLC  
 **System:** Atlas API  
-**Laboratory:** DrMarchand's Laboratory
+**Laboratory:** 🔬 DrMarchand’s Lab⚛︎ratory™
 
 ## Purpose
 
@@ -14,7 +14,7 @@ The system connects agreements, contracts, payments, partners, clients, and comp
 
 ## Authority Model
 
-Stripe is the payment authority.
+Stripe is the payment processor; it does not hold organizational authority.
 
 HubSpot is the relationship and identity ledger.
 
@@ -115,4 +115,4 @@ Never commit:
 - bank data
 - card data
 
-Copyright © 2026 Joseph Kyle Marchand and/or Design Orchard LLC.
+Copyright © 2026 Joseph Kyle Marchand.
