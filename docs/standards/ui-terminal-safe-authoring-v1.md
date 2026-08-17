@@ -78,4 +78,4 @@ Watchdog should flag symbolic characters in:
 - shell scripts
 - API identifiers
 
-Copyright 2026 Joseph Kyle Marchand and/or Design Orchard LLC.
+Copyright © 2026 Joseph Kyle Marchand.
