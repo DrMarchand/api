@@ -3,7 +3,7 @@
 **Date Established:** 2026-06-15  
 **Originating Author:** Joseph Kyle Marchand  
 **Business Root:** Design Orchard LLC  
-**System Context:** DrMarchand's Laboratory inside Atlas
+**System Context:** 🔬 DrMarchand’s Lab⚛︎ratory™ inside Atlas
 
 ## 📒 DrMarchand's ⚛︎ Notebook™
 
@@ -98,4 +98,4 @@ Major infrastructure changes require:
 - registry update
 - archive reference when appropriate
 
-Copyright © 2026 Joseph Kyle Marchand and/or Design Orchard LLC.
+Copyright © 2026 Joseph Kyle Marchand.
