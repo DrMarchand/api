@@ -1,13 +1,13 @@
-# Notice
+NOTICE
 
-Copyright © 2026 Joseph Kyle Marchand and/or Design Orchard LLC.
+Repository: DrMarchand/api
+Status: Working technical record
 
-This repository contains original software, documentation, architecture notes,
-configuration structure, naming systems, operational manifests, and related
-creative works developed for the Design Orchard LLC ecosystem.
+Copyright © 2026 Joseph Kyle Marchand.
+Author and default copyright owner: Joseph Kyle Marchand.
+Legal and operating company: Design Orchard LLC.
+Publisher: not established absent a work-specific publication record.
 
-Design Orchard LLC is the business root. Joseph Kyle Marchand is the creator,
-operator, and originating author/contributor unless otherwise documented.
+This repository contains software, architecture documents, and working records for the Design Orchard ecosystem. Repository location, maintenance, operation, DBA association, and publisher credit do not by themselves transfer copyright. Existing licenses, prior grants, file-specific notices, and third-party rights remain in effect.
 
-No secrets, tokens, credentials, private keys, or client-confidential materials
-should be committed to this repository.
+Trademark status is separate from copyright. `TM` and `SM` express claims; the registered symbol requires a current mark-specific registration record.
