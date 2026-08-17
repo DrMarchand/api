@@ -3,13 +3,13 @@ Titan Architecture v1
 Date Established: 2026-06-15
 Originating Author: Joseph Kyle Marchand
 Business Root: Design Orchard LLC
-Publishing Arm: Design Orchard℠
+Service brand: 🏝️ Design Orchard℠
 
 Core Principle
 
 Atlas is the Static Titan.
 
-Atlas’ heart is the ⚙︎ Nɛuro-Forge Engine™.
+Atlas’ heart is the DrMarchand’s ⚙︎ Nɛuro-Forge Engine™.
 
 Lionheart is the Static Governor positioned between the Dynamic Titans.
 
@@ -38,9 +38,9 @@ These are implementations of Atlas, not Atlas itself.
 
 Core Engine
 
-⚙︎ Nɛuro-Forge Engine™
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
 
-The Nɛuro-Forge Engine is the heart of Atlas.
+The DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ is the heart of Atlas.
 
 Responsibilities:
 
@@ -57,7 +57,7 @@ Static Governor
 
 Lionheart
 
-Lionheart provides execution authority.
+Lionheart presents and routes interaction; DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ executes within delegated permission.
 
 Responsibilities:
 
@@ -223,4 +223,4 @@ Provenance
 
 This document records original architecture expression created by Joseph Kyle Marchand for the Design Orchard LLC ecosystem.
 
-Copyright © 2026 Joseph Kyle Marchand and/or Design Orchard LLC.
+Copyright © 2026 Joseph Kyle Marchand.
