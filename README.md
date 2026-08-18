@@ -1,9 +1,11 @@
-# ⚙︎ Nɛuro-Forge Engine™
+# DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
 
 Runtime orchestration engine for **DrMarchand’s ∞ OS™**
 
-**Authority:** © Design Orchard LLC  
-**Owner / Operator:** Joseph Kyle Marchand  
+**Legal authority:** Design Orchard LLC  
+**Author / operator:** Joseph Kyle Marchand  
+**Copyright owner:** Joseph Kyle Marchand  
+**Publisher:** Not established absent a work-specific publication record  
 **Runtime:** 🔬 DrMarchand’s Lab⚛︎ratory™  
 **Archive:** 📚 DrMarchand’s ⚛︎ Library™  
 
@@ -11,7 +13,7 @@ Runtime orchestration engine for **DrMarchand’s ∞ OS™**
 
 ## Overview
 
-The **Nɛuro-Forge Engine™** is the runtime layer responsible for executing the architecture of **DrMarchand’s ∞ OS™**.
+The **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** is the runtime layer responsible for executing the architecture of **DrMarchand’s ∞ OS™**.
 
 It coordinates identity, connectors, event processing, and system integrity across the broader system.
 
@@ -23,7 +25,7 @@ This engine supports:
 
 All operating under:
 
-- 🌴 **Design Orchard LLC ©**
+- **Design Orchard LLC** — legal and operating company
 
 ---
 
@@ -54,7 +56,7 @@ It processes, records, and derives from what has already occurred.
 
 ## Core Responsibilities
 
-The **Nɛuro-Forge Engine™** provides:
+The **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** provides:
 
 - 📡 connector orchestration
 - 🔐 identity verification
@@ -129,12 +131,12 @@ Integrity is prioritized throughout the runtime.
 
 ## Relationship to ∞ OS™
 
-The **Nɛuro-Forge Engine™** is one component of the larger **DrMarchand’s ∞ OS™** structure.
+The **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** is one component of the larger **DrMarchand’s ∞ OS™** structure.
 
 ```txt
 ∞ OS™
 ↓
-⚙︎ Nɛuro-Forge Engine™
+DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
 ↓
 🔬 DrMarchand’s Lab⚛︎ratory™
 ↓
@@ -146,7 +148,7 @@ The **Nɛuro-Forge Engine™** is one component of the larger **DrMarchand’s �
 ### Functional relationship
 
 - **∞ OS™** provides the broader system structure and governance model
-- **Nɛuro-Forge Engine™** provides runtime orchestration and execution logic
+- **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** provides runtime orchestration and execution logic
 
 ---
 
@@ -175,7 +177,7 @@ The **Nɛuro-Forge Engine™** is one component of the larger **DrMarchand’s �
 
 ## License
 
-© **Design Orchard LLC**  
+Copyright © **Joseph Kyle Marchand**  
 All rights reserved.
 
 ---
@@ -184,6 +186,6 @@ All rights reserved.
 
 - 🌴 **Design Orchard™**
 - 🔬 **DrMarchand’s Lab⚛︎ratory™**
-- ⚙︎ **Nɛuro-Forge Engine™**
+- ⚙︎ **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™**
 - 📚 **DrMarchand’s ⚛︎ Library™**
 - ∞ **DrMarchand’s ∞ OS™**

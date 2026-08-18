@@ -10,7 +10,7 @@ Atlas does not send updates.
 
 Atlas feels updates.
 
-The ⚙︎ Nɛuro-Forge Engine™ sends, routes, processes, and propagates updates.
+The DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ sends, routes, processes, and propagates updates.
 
 Atlas is the static Titan and perceptive anchor.
 
@@ -60,4 +60,4 @@ KEJ Studio publishes design compositions.
 
 DrMarchand's Lab⚛︎ratory™ publishes code/system compositions.
 
-Copyright © 2026 Joseph Kyle Marchand and/or Design Orchard LLC.
+Copyright © 2026 Joseph Kyle Marchand.

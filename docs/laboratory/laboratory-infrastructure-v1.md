@@ -1,15 +1,15 @@
-# DrMarchand's Laboratory Infrastructure v1
+# 🔬 DrMarchand’s Lab⚛︎ratory™ Infrastructure v1
 
 **Date Established:** 2026-06-15  
 **Originating Author:** Joseph Kyle Marchand  
 **Business Root:** Design Orchard LLC  
-**Laboratory Node:** DrMarchand's Laboratory  
+**Laboratory Node:** 🔬 DrMarchand’s Lab⚛︎ratory™  
 **Static Titan:** Atlas  
-**Core Engine:** ⚙︎ Nɛuro-Forge Engine™
+**Core Engine:** DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
 
 ## Purpose
 
-DrMarchand's Laboratory is the satellite infrastructure inside Atlas.
+🔬 DrMarchand’s Lab⚛︎ratory™ is the satellite infrastructure inside Atlas.
 
 The Laboratory exists to test, observe, document, route, and refine systems before they are promoted into the larger Design Orchard LLC ecosystem.
 
@@ -55,4 +55,4 @@ Every meaningful Laboratory change should leave:
 - registry update
 - archive reference when appropriate
 
-Copyright © 2026 Joseph Kyle Marchand and/or Design Orchard LLC.
+Copyright © 2026 Joseph Kyle Marchand.
