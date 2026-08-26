@@ -10,7 +10,7 @@ app.get("/health", (_req, res) => {
   res.json({
     ok: true,
     service: "echo-discord-bot",
-    app: "Atlas",
+    app: "discord-status-adapter",
     mode: "audit-only",
     time: new Date().toISOString()
   });
@@ -23,7 +23,7 @@ const client = new Client({
 const commands = [
   new SlashCommandBuilder()
     .setName("nfe_status")
-    .setDescription("Show NFE Echo bot status.")
+    .setDescription("Show the internal status adapter response.")
 ].map(c => c.toJSON());
 
 async function registerCommands() {
@@ -41,7 +41,7 @@ async function registerCommands() {
 }
 
 client.once("ready", () => {
-  console.log(`Echo online as ${client.user.tag}`);
+  console.log(`Status adapter online as ${client.user.tag}`);
 });
 
 client.on("interactionCreate", async interaction => {
@@ -49,7 +49,7 @@ client.on("interactionCreate", async interaction => {
 
   if (interaction.commandName === "nfe_status") {
     await interaction.reply({
-      content: "⚙︎ Echo online. Atlas mode: audit-only. High-risk actions blocked.",
+      content: "Status adapter online. Mode: audit-only. No mutation commands are implemented.",
       ephemeral: true
     });
   }
@@ -73,3 +73,4 @@ main().catch(err => {
   console.error(err);
   process.exit(1);
 });
+
