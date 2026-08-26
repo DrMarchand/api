@@ -1,63 +1,88 @@
-schema_version: 1.0
-registry_type: trademark_candidates
+schema_version: 1.1
+registry_type: naming_and_trademark_review
+review_date: 2026-08-26
+review_scope: preliminary_federal_and_public_web_screening
+legal_review: pending
+public_mark_claims: paused
+registered_symbol_authorized: false
 
 marks:
   design_orchard:
     display_name: "Design Orchard"
     owner: "Design Orchard LLC"
-    status: common_law_or_candidate
-    notes: "Business root and publishing arm."
+    status: clearance_pending_public_use_unmarked
+    notes: "Exact live federal match was not found in the preliminary screen; common-law and state review remain incomplete."
 
   drmarchands_laboratory:
-    display_name: "DrMarchand's Laboratory"
+    display_name: "DrMarchand’s Laboratory"
     owner: "Design Orchard LLC"
-    status: common_law_or_candidate
-    notes: "Research and development realm."
+    status: clearance_pending_public_use_unmarked
+    notes: "Operating DBA. Public mark claims remain paused pending complete clearance and filing strategy."
 
   kej_studio:
     display_name: "KEJ Studio"
     owner: "Design Orchard LLC"
-    status: common_law_or_candidate
-    notes: "Design composition publication realm."
+    operating_status: "Florida DBA/division"
+    status: clearance_pending_public_use_unmarked
+    notes: "Owned and operated by Design Orchard LLC. A separate Keji Studio spelling is an unverified third-party near-match, not this identity."
+
+  drmarchands_os:
+    display_name: "DrMarchand’s OS"
+    owner: "Design Orchard LLC"
+    status: clearance_pending_public_use_unmarked
+    notes: "Exact live federal match was not found in the preliminary screen; surname and descriptive wording require counsel review."
 
   neuro_forge_engine:
-    display_name: "Neuro-Forge Engine"
-    owner: "Design Orchard LLC / Joseph Kyle Marchand"
-    status: internal_private_use_review_required
-    notes: "Use carefully due to external mark risk."
+    historical_display_name: "Neuro-Forge Engine"
+    owner: "Not resolved by this registry"
+    status: public_use_paused_live_federal_conflict_internal_identifiers_only
+    conflict:
+      mark: NEUROFORGE
+      registration_number: "6674511"
+      serial_number: "79304912"
+      international_classes: ["009", "035", "042"]
+      observed_date: 2026-08-26
+      source: "https://tsdr.uspto.gov/#caseNumber=79304912&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch"
+    notes: "Do not use as a public product brand. Preserve existing NFE, Neuro-Forge_Engine, repository, database, command, path, and schema strings only as labeled compatibility identifiers."
 
-  rhythm_agenda:
-    display_name: "Rhythm Agenda"
-    owner: "Design Orchard LLC"
-    status: candidate
-    notes: "Timing and obligation layer."
+  liquid_logic:
+    historical_display_name: "Liquid Logic"
+    owner: "Not resolved by this registry"
+    status: public_use_paused_live_federal_conflict_internal_codename_only
+    conflict:
+      mark: LIQUIDLOGIC
+      registration_number: "7971670"
+      serial_number: "79413194"
+      international_classes: ["009", "042"]
+      observed_date: 2026-08-26
+      source: "https://tsdr.uspto.gov/#caseNumber=79413194&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch"
+
+  creative_canvas:
+    historical_display_name: "Creative Canvas"
+    owner: "Not resolved by this registry"
+    status: public_use_paused_common_law_conflict_review
+    notes: "Treat as an internal working name only pending complete clearance and a replacement decision."
 
   atlas_governance_framework:
     display_name: "Atlas Governance Framework"
     owner: "Design Orchard LLC"
-    status: candidate
-    notes: "Governance framework for the DrMarchand ecosystem."
+    status: internal_codename_clearance_pending
+    notes: "Standalone Atlas wording is crowded in software-related use and is not approved here as a public brand."
 
   big_brother:
     display_name: "Big Brother"
-    owner: "Design Orchard LLC / Joseph Kyle Marchand"
-    status: internal_system_name
-    notes: "Anti-arrogance oversight layer."
+    owner: "Not resolved by this registry"
+    status: internal_codename_not_public_brand
+    notes: "Crowded public field. Use functional observation language in active public copy."
 
-  lionheart_reboot:
-    display_name: "Lionheart Reboot"
-    owner: "Design Orchard LLC / Joseph Kyle Marchand"
-    status: internal_protocol
-    notes: "Recovery and reboot protocol."
+  watchdog:
+    display_name: "Watchdog"
+    owner: "Not resolved by this registry"
+    status: internal_function_not_public_brand
+    notes: "Crowded and functional wording. Preserve code identifiers; use descriptive operational language in public copy."
 
-  no_mans_land:
-    display_name: "No Man's Land"
-    owner: "Design Orchard LLC / Joseph Kyle Marchand"
-    status: internal_lifecycle_layer
-    notes: "Ghost, corrupted, deleted, or unrecoverable evidence layer."
-
-  toolbox:
-    display_name: "Toolbox"
-    owner: "Design Orchard LLC / Joseph Kyle Marchand"
-    status: internal_lifecycle_layer
-    notes: "Blueprint layer."
+  lionheart:
+    display_name: "Lionheart"
+    owner: "Not resolved by this registry"
+    status: historical_or_internal_context_review_required
+    notes: "Yoruba is the current first public version name. Preserve Lionheart as historical provenance unless an active context requires migration."
