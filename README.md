@@ -1,191 +1,83 @@
-# DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
+# Discord Status Adapter
 
-Runtime orchestration engine for **DrMarchand’s ∞ OS™**
+> A small Discord guild-command adapter with an HTTP health endpoint.
 
-**Legal authority:** Design Orchard LLC  
-**Author / operator:** Joseph Kyle Marchand  
-**Copyright owner:** Joseph Kyle Marchand  
-**Publisher:** Not established absent a work-specific publication record  
-**Runtime:** 🔬 DrMarchand’s Lab⚛︎ratory™  
-**Archive:** 📚 DrMarchand’s ⚛︎ Library™  
+`DrMarchand/api` is the repository identifier. The checked-in package identifies the service as `echo-discord-bot`; neither identifier is presented here as a cleared public brand.
 
----
+## Quick start
 
-## Overview
-
-The **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** is the runtime layer responsible for executing the architecture of **DrMarchand’s ∞ OS™**.
-
-It coordinates identity, connectors, event processing, and system integrity across the broader system.
-
-This engine supports:
-
-- 🔬 **DrMarchand’s Lab⚛︎ratory™**
-- 📚 **DrMarchand’s ⚛︎ Library™**
-- 🪑 **DrMarchand’s ☸︎ Workbench™**
-
-All operating under:
-
-- **Design Orchard LLC** — legal and operating company
-
----
-
-## System Philosophy
-
-The system is built on three core principles:
-
-### ⚙️ Append-Only Truth
-Events are not edited after they are written.  
-System state is derived from recorded history.
-
-### 🔐 Identity First
-Identity is defined as `(provider, provider_sub)`, not email.
-
-### 🧭 Deterministic Runtime
-Commands produce events.  
-Events update projections.  
-Interfaces reflect projections.
-
-```txt
-Command → Event → Projection → Interface
+```bash
+npm ci
+cp .env.example .env
+npm start
 ```
 
-The engine does not mutate truth retroactively.  
-It processes, records, and derives from what has already occurred.
+`npm start` runs [`index.js`](index.js), as defined by [`package.json`](package.json). Keep the real Discord token in the local `.env`; [`.gitignore`](.gitignore) excludes that file.
 
----
+If the required Discord variables are absent, the HTTP health server still starts and the Discord client does not log in.
 
-## Core Responsibilities
+## Library map
 
-The **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** provides:
+| File | Purpose |
+|---|---|
+| [`index.js`](index.js) | HTTP health route, Discord command registration, and status response |
+| [`package.json`](package.json) | Package metadata, commands, and dependency declarations |
+| [`.env.example`](.env.example) | Non-secret configuration names |
 
-- 📡 connector orchestration
-- 🔐 identity verification
-- 📜 event ingestion
-- 🧾 append-only ledger storage
-- 📊 projection generation
-- 🧠 runtime state coordination
+## API
 
----
+| Surface | Current behavior | Source |
+|---|---|---|
+| `GET /health` | Returns health, service identifier, application identifier, mode, and current timestamp | [`index.js`](index.js) |
+| `/nfe_status` | Returns a read-only status response in Discord | [`index.js`](index.js) |
+| Discord registration | Registers the guild command when token, client ID, and guild ID are present | [`index.js`](index.js) |
 
-## Event System
+`nfe_status` is a compatibility command identifier. It is not a public product or brand name, and changing it requires a separate compatibility review.
 
-The platform runs on an **append-only event ledger**.
+## Commands
 
-Each action emits an immutable event record.
+| Command | Effect | Defined by |
+|---|---|---|
+| `npm ci` | Installs the locked dependency tree | [`package-lock.json`](package-lock.json) |
+| `npm start` | Starts the health server and, when configured, the Discord client | [`package.json`](package.json) |
+| `npm test` | Exits with “no test specified” | [`package.json`](package.json) |
 
-### Example events
+## Configuration
 
-```txt
-user.created
-oauth.authorized
-connector.connect.succeeded
+| Variable | Required for | Boundary |
+|---|---|---|
+| `DISCORD_TOKEN` | Discord registration and login | Secret; never commit |
+| `DISCORD_CLIENT_ID` | Guild command registration | Runtime configuration |
+| `DISCORD_GUILD_ID` | Guild command registration | Runtime configuration |
+| `DISCORD_ALERT_CHANNEL_ID` | Reserved in [`.env.example`](.env.example) | Not consumed by current `index.js` |
+| `PORT` | HTTP health server | Defaults to `8787` |
 
-host.boot.completed
-host.heartbeat
-power.source.changed
-power.battery.snapshot
+## Architecture
 
-atom.isotope.set
-atom.isotope.locked
+The current code implements one status command and one health endpoint. It does not implement a general execution engine, identity system, append-only ledger, cryptographic vault, or authorization framework.
+
+Discord is an external connection boundary. This adapter does not hold organizational authority and does not make a third-party platform part of a private execution system.
+
+## Public naming boundary
+
+Public mark claims are paused as of August 26, 2026. Display copy is functional and unmarked. Repository names, package names, command identifiers, routes, and environment variables remain exact machine identifiers.
+
+## Validation
+
+`npm test` currently exits with “no test specified.” No automated test suite is claimed.
+
+Useful checks after checkout:
+
+```bash
+node --check index.js
+npm start
+curl http://localhost:8787/health
 ```
 
-Events are hash-chained to support integrity and traceability.
+The health response proves only that the observed process answered that request. It does not prove Discord connectivity when the required credentials are absent.
 
----
+## Authority and license
 
-## Repository Structure
+**Legal and operating company:** Design Orchard LLC
 
-```txt
-engine/
-├── api/                # runtime endpoints
-├── projections/        # state projections
-├── core/               # engine primitives
-├── ledger/             # event integrity
-└── security/           # identity verification
-```
-
-### Future modules
-
-```txt
-agents/                 # host sentinel nodes
-connectors/             # external system bridges
-workbench/              # developer interface
-```
-
----
-
-## Security Model
-
-The engine enforces a strict runtime security posture:
-
-- PKCE OAuth flows
-- no client-side refresh tokens
-- sandboxed connectors
-- HMAC device verification
-- AES-256 token storage
-- append-only event ledger
-
-Integrity is prioritized throughout the runtime.
-
----
-
-## Relationship to ∞ OS™
-
-The **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** is one component of the larger **DrMarchand’s ∞ OS™** structure.
-
-```txt
-∞ OS™
-↓
-DrMarchand’s ⚙︎ Nɛuro-Forge Engine™
-↓
-🔬 DrMarchand’s Lab⚛︎ratory™
-↓
-📚 DrMarchand’s ⚛︎ Library™
-↓
-🪑 DrMarchand’s ☸︎ Workbench™
-```
-
-### Functional relationship
-
-- **∞ OS™** provides the broader system structure and governance model
-- **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** provides runtime orchestration and execution logic
-
----
-
-## Current Development Phase
-
-**∞ OS™ v4.x · Runtime Architecture**
-
-### Active work
-- ⚙️ engine runtime
-- 📜 event ledger
-- 📡 connector protocol
-- 🧠 projection system
-
-### Upcoming
-- 🧭 workbench console
-- 📦 host sentinel agents
-- 🔐 vault key management
-
----
-
-## Motto
-
-> Where code becomes architecture.
-
----
-
-## License
-
-Copyright © **Joseph Kyle Marchand**  
-All rights reserved.
-
----
-
-## System References
-
-- 🌴 **Design Orchard™**
-- 🔬 **DrMarchand’s Lab⚛︎ratory™**
-- ⚙︎ **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™**
-- 📚 **DrMarchand’s ⚛︎ Library™**
-- ∞ **DrMarchand’s ∞ OS™**
+[`package.json`](package.json) declares `ISC`, while [`LICENSE`](LICENSE) contains different terms. License scope remains unresolved pending authorized owner or legal review; this README does not alter either artifact.
